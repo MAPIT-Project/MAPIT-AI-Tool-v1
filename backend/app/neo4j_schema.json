@@ -1,0 +1,1687 @@
+{
+  "node_schema": [
+    {
+      "nodeLabels": [
+        "Call",
+        "SemanticNode"
+      ],
+      "propertyName": "id",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call",
+        "SemanticNode"
+      ],
+      "propertyName": "title",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call",
+        "SemanticNode"
+      ],
+      "propertyName": "call",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call",
+        "SemanticNode"
+      ],
+      "propertyName": "qa_links_count",
+      "propertyTypes": [
+        "Long"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call",
+        "SemanticNode"
+      ],
+      "propertyName": "deadline_date",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call",
+        "SemanticNode"
+      ],
+      "propertyName": "budget",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call",
+        "SemanticNode"
+      ],
+      "propertyName": "topic_description",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call",
+        "SemanticNode"
+      ],
+      "propertyName": "type_of_mga",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call",
+        "SemanticNode"
+      ],
+      "propertyName": "planned_opening_date",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call",
+        "SemanticNode"
+      ],
+      "propertyName": "programme",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call",
+        "SemanticNode"
+      ],
+      "propertyName": "partner_search_count",
+      "propertyTypes": [
+        "Long"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call",
+        "SemanticNode"
+      ],
+      "propertyName": "call_id",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call",
+        "SemanticNode"
+      ],
+      "propertyName": "document_count",
+      "propertyTypes": [
+        "Long"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call",
+        "SemanticNode"
+      ],
+      "propertyName": "type_of_action",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call",
+        "SemanticNode"
+      ],
+      "propertyName": "titleDescriptionText",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call",
+        "SemanticNode"
+      ],
+      "propertyName": "url",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call",
+        "SemanticNode"
+      ],
+      "propertyName": "deadline_model",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call",
+        "SemanticNode"
+      ],
+      "propertyName": "documents",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call",
+        "SemanticNode"
+      ],
+      "propertyName": "conditions",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call",
+        "SemanticNode"
+      ],
+      "propertyName": "ingested_at",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call",
+        "SemanticNode"
+      ],
+      "propertyName": "topic_destination",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call",
+        "SemanticNode"
+      ],
+      "propertyName": "SemanticGNNEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call",
+        "SemanticNode"
+      ],
+      "propertyName": "SentenceTransformerEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call",
+        "SemanticNode"
+      ],
+      "propertyName": "titleDescriptionEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "PubAuthor",
+        "SemanticNode"
+      ],
+      "propertyName": "name",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "PubAuthor",
+        "SemanticNode"
+      ],
+      "propertyName": "affiliation",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "PubAuthor",
+        "SemanticNode"
+      ],
+      "propertyName": "SemanticGNNEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "PubAuthor",
+        "SemanticNode"
+      ],
+      "propertyName": "SentenceTransformerEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "PubAuthor",
+        "SemanticNode"
+      ],
+      "propertyName": "orcid",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "SemanticNode",
+        "WebLink"
+      ],
+      "propertyName": "id",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "SemanticNode",
+        "WebLink"
+      ],
+      "propertyName": "type",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "SemanticNode",
+        "WebLink"
+      ],
+      "propertyName": "status",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "SemanticNode",
+        "WebLink"
+      ],
+      "propertyName": "physUrl",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "SemanticNode",
+        "WebLink"
+      ],
+      "propertyName": "archivedDate",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "SemanticNode",
+        "WebLink"
+      ],
+      "propertyName": "availableLanguages",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "SemanticNode",
+        "WebLink"
+      ],
+      "propertyName": "represents",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "SemanticNode",
+        "WebLink"
+      ],
+      "propertyName": "SemanticGNNEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "SemanticNode",
+        "WebLink"
+      ],
+      "propertyName": "SentenceTransformerEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "SemanticNode",
+        "WebLink"
+      ],
+      "propertyName": "source",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "SemanticNode",
+        "WebItem"
+      ],
+      "propertyName": "type",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "SemanticNode",
+        "WebItem"
+      ],
+      "propertyName": "title",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "SemanticNode",
+        "WebItem"
+      ],
+      "propertyName": "availableLanguages",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "SemanticNode",
+        "WebItem"
+      ],
+      "propertyName": "language",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "SemanticNode",
+        "WebItem"
+      ],
+      "propertyName": "represents",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "SemanticNode",
+        "WebItem"
+      ],
+      "propertyName": "SemanticGNNEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "SemanticNode",
+        "WebItem"
+      ],
+      "propertyName": "uri",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "SemanticNode",
+        "WebItem"
+      ],
+      "propertyName": "SentenceTransformerEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "SemanticNode",
+        "WebItem"
+      ],
+      "propertyName": "source",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "ReportSummary",
+        "SemanticNode"
+      ],
+      "propertyName": "id",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "ReportSummary",
+        "SemanticNode"
+      ],
+      "propertyName": "title",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "ReportSummary",
+        "SemanticNode"
+      ],
+      "propertyName": "rcn",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "ReportSummary",
+        "SemanticNode"
+      ],
+      "propertyName": "projectAcronym",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "ReportSummary",
+        "SemanticNode"
+      ],
+      "propertyName": "attachment",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "ReportSummary",
+        "SemanticNode"
+      ],
+      "propertyName": "SemanticGNNEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "ReportSummary",
+        "SemanticNode"
+      ],
+      "propertyName": "contentUpdateDate",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "ReportSummary",
+        "SemanticNode"
+      ],
+      "propertyName": "SentenceTransformerEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call"
+      ],
+      "propertyName": "id",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call"
+      ],
+      "propertyName": "title",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call"
+      ],
+      "propertyName": "call",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call"
+      ],
+      "propertyName": "budget",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call"
+      ],
+      "propertyName": "topic_description",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call"
+      ],
+      "propertyName": "deadline_date",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call"
+      ],
+      "propertyName": "type_of_mga",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call"
+      ],
+      "propertyName": "programme",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call"
+      ],
+      "propertyName": "planned_opening_date",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call"
+      ],
+      "propertyName": "partner_search_count",
+      "propertyTypes": [
+        "Long"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call"
+      ],
+      "propertyName": "call_id",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call"
+      ],
+      "propertyName": "document_count",
+      "propertyTypes": [
+        "Long"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call"
+      ],
+      "propertyName": "type_of_action",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call"
+      ],
+      "propertyName": "titleDescriptionText",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call"
+      ],
+      "propertyName": "url",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call"
+      ],
+      "propertyName": "deadline_model",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call"
+      ],
+      "propertyName": "documents",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call"
+      ],
+      "propertyName": "conditions",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call"
+      ],
+      "propertyName": "ingested_at",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call"
+      ],
+      "propertyName": "topic_destination",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Call"
+      ],
+      "propertyName": "titleDescriptionEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "PolicyPriority",
+        "SemanticNode"
+      ],
+      "propertyName": "name",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "PolicyPriority",
+        "SemanticNode"
+      ],
+      "propertyName": "SemanticGNNEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "PolicyPriority",
+        "SemanticNode"
+      ],
+      "propertyName": "SentenceTransformerEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "EuroSciVoc",
+        "SemanticNode"
+      ],
+      "propertyName": "id",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "EuroSciVoc",
+        "SemanticNode"
+      ],
+      "propertyName": "title",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "EuroSciVoc",
+        "SemanticNode"
+      ],
+      "propertyName": "description",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "EuroSciVoc",
+        "SemanticNode"
+      ],
+      "propertyName": "SemanticGNNEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "EuroSciVoc",
+        "SemanticNode"
+      ],
+      "propertyName": "SentenceTransformerEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "LegalBasis",
+        "SemanticNode"
+      ],
+      "propertyName": "id",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "LegalBasis",
+        "SemanticNode"
+      ],
+      "propertyName": "title",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "LegalBasis",
+        "SemanticNode"
+      ],
+      "propertyName": "SemanticGNNEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "LegalBasis",
+        "SemanticNode"
+      ],
+      "propertyName": "SentenceTransformerEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "SemanticNode",
+        "Topic"
+      ],
+      "propertyName": "id",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "SemanticNode",
+        "Topic"
+      ],
+      "propertyName": "title",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "SemanticNode",
+        "Topic"
+      ],
+      "propertyName": "SemanticGNNEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "SemanticNode",
+        "Topic"
+      ],
+      "propertyName": "SentenceTransformerEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Deliverable",
+        "SemanticNode"
+      ],
+      "propertyName": "id",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Deliverable",
+        "SemanticNode"
+      ],
+      "propertyName": "type",
+      "propertyTypes": [
+        "String",
+        "Double"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Deliverable",
+        "SemanticNode"
+      ],
+      "propertyName": "title",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Deliverable",
+        "SemanticNode"
+      ],
+      "propertyName": "description",
+      "propertyTypes": [
+        "String",
+        "Double"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Deliverable",
+        "SemanticNode"
+      ],
+      "propertyName": "SemanticGNNEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Deliverable",
+        "SemanticNode"
+      ],
+      "propertyName": "url",
+      "propertyTypes": [
+        "String",
+        "Double"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Deliverable",
+        "SemanticNode"
+      ],
+      "propertyName": "SentenceTransformerEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Publication",
+        "SemanticNode"
+      ],
+      "propertyName": "id",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Publication",
+        "SemanticNode"
+      ],
+      "propertyName": "title",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Publication",
+        "SemanticNode"
+      ],
+      "propertyName": "isbn",
+      "propertyTypes": [
+        "String",
+        "Double"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Publication",
+        "SemanticNode"
+      ],
+      "propertyName": "journalNumber",
+      "propertyTypes": [
+        "String",
+        "Double"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Publication",
+        "SemanticNode"
+      ],
+      "propertyName": "pages",
+      "propertyTypes": [
+        "String",
+        "Double"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Publication",
+        "SemanticNode"
+      ],
+      "propertyName": "journalTitle",
+      "propertyTypes": [
+        "String",
+        "Double"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Publication",
+        "SemanticNode"
+      ],
+      "propertyName": "doi",
+      "propertyTypes": [
+        "String",
+        "Double"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Publication",
+        "SemanticNode"
+      ],
+      "propertyName": "authors",
+      "propertyTypes": [
+        "String",
+        "Double"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Publication",
+        "SemanticNode"
+      ],
+      "propertyName": "isPublishedAs",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Publication",
+        "SemanticNode"
+      ],
+      "propertyName": "SemanticGNNEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Publication",
+        "SemanticNode"
+      ],
+      "propertyName": "year",
+      "propertyTypes": [
+        "Double"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Publication",
+        "SemanticNode"
+      ],
+      "propertyName": "SentenceTransformerEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Publication",
+        "SemanticNode"
+      ],
+      "propertyName": "issn",
+      "propertyTypes": [
+        "String",
+        "Double"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Organization",
+        "SemanticNode"
+      ],
+      "propertyName": "id",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Organization",
+        "SemanticNode"
+      ],
+      "propertyName": "type",
+      "propertyTypes": [
+        "String",
+        "Double"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Organization",
+        "SemanticNode"
+      ],
+      "propertyName": "name",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Organization",
+        "SemanticNode"
+      ],
+      "propertyName": "country",
+      "propertyTypes": [
+        "String",
+        "Double"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Organization",
+        "SemanticNode"
+      ],
+      "propertyName": "shortName",
+      "propertyTypes": [
+        "String",
+        "Double"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Organization",
+        "SemanticNode"
+      ],
+      "propertyName": "SemanticGNNEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Organization",
+        "SemanticNode"
+      ],
+      "propertyName": "SentenceTransformerEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Project",
+        "SemanticNode"
+      ],
+      "propertyName": "id",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Project",
+        "SemanticNode"
+      ],
+      "propertyName": "acronym",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Project",
+        "SemanticNode"
+      ],
+      "propertyName": "endDate",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Project",
+        "SemanticNode"
+      ],
+      "propertyName": "topics",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Project",
+        "SemanticNode"
+      ],
+      "propertyName": "legalBasis",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Project",
+        "SemanticNode"
+      ],
+      "propertyName": "grantDoi",
+      "propertyTypes": [
+        "String",
+        "Double"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Project",
+        "SemanticNode"
+      ],
+      "propertyName": "title",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Project",
+        "SemanticNode"
+      ],
+      "propertyName": "objective",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Project",
+        "SemanticNode"
+      ],
+      "propertyName": "ecMaxContribution",
+      "propertyTypes": [
+        "Double"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Project",
+        "SemanticNode"
+      ],
+      "propertyName": "rcn",
+      "propertyTypes": [
+        "Long"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Project",
+        "SemanticNode"
+      ],
+      "propertyName": "frameworkProgramme",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Project",
+        "SemanticNode"
+      ],
+      "propertyName": "startDate",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Project",
+        "SemanticNode"
+      ],
+      "propertyName": "totalCost",
+      "propertyTypes": [
+        "Double"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Project",
+        "SemanticNode"
+      ],
+      "propertyName": "status",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Project",
+        "SemanticNode"
+      ],
+      "propertyName": "titleObjectiveText",
+      "propertyTypes": [
+        "String"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Project",
+        "SemanticNode"
+      ],
+      "propertyName": "keywords",
+      "propertyTypes": [
+        "StringArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Project",
+        "SemanticNode"
+      ],
+      "propertyName": "SemanticGNNEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Project",
+        "SemanticNode"
+      ],
+      "propertyName": "SentenceTransformerEmbedding",
+      "propertyTypes": [
+        "DoubleArray"
+      ]
+    },
+    {
+      "nodeLabels": [
+        "Project",
+        "SemanticNode"
+      ],
+      "propertyName": "teaser",
+      "propertyTypes": [
+        "String"
+      ]
+    }
+  ],
+  "rel_schema": [
+    {
+      "relType": ":`PARTICIPATES_IN`",
+      "propertyName": "totalCost",
+      "propertyTypes": [
+        "Double"
+      ],
+      "sourceNodeLabels": null,
+      "targetNodeLabels": null
+    },
+    {
+      "relType": ":`PARTICIPATES_IN`",
+      "propertyName": "role",
+      "propertyTypes": [
+        "String"
+      ],
+      "sourceNodeLabels": null,
+      "targetNodeLabels": null
+    },
+    {
+      "relType": ":`PARTICIPATES_IN`",
+      "propertyName": "ecContribution",
+      "propertyTypes": [
+        "Double"
+      ],
+      "sourceNodeLabels": null,
+      "targetNodeLabels": null
+    },
+    {
+      "relType": ":`HAS_PUBLICATION`",
+      "propertyName": null,
+      "propertyTypes": null,
+      "sourceNodeLabels": null,
+      "targetNodeLabels": null
+    },
+    {
+      "relType": ":`HAS_DELIVERABLE`",
+      "propertyName": null,
+      "propertyTypes": null,
+      "sourceNodeLabels": null,
+      "targetNodeLabels": null
+    },
+    {
+      "relType": ":`HAS_TOPIC`",
+      "propertyName": null,
+      "propertyTypes": null,
+      "sourceNodeLabels": null,
+      "targetNodeLabels": null
+    },
+    {
+      "relType": ":`HAS_LEGAL_BASIS`",
+      "propertyName": null,
+      "propertyTypes": null,
+      "sourceNodeLabels": null,
+      "targetNodeLabels": null
+    },
+    {
+      "relType": ":`HAS_EUROSCIVOC`",
+      "propertyName": null,
+      "propertyTypes": null,
+      "sourceNodeLabels": null,
+      "targetNodeLabels": null
+    },
+    {
+      "relType": ":`HAS_REPORT_SUMMARY`",
+      "propertyName": null,
+      "propertyTypes": null,
+      "sourceNodeLabels": null,
+      "targetNodeLabels": null
+    },
+    {
+      "relType": ":`HAS_WEB_LINK`",
+      "propertyName": null,
+      "propertyTypes": null,
+      "sourceNodeLabels": null,
+      "targetNodeLabels": null
+    },
+    {
+      "relType": ":`AUTHORED`",
+      "propertyName": null,
+      "propertyTypes": null,
+      "sourceNodeLabels": null,
+      "targetNodeLabels": null
+    }
+  ],
+  "label_counts": [
+    {
+      "labels": [
+        "PubAuthor",
+        "SemanticNode"
+      ],
+      "count": 78148
+    },
+    {
+      "labels": [
+        "Organization",
+        "SemanticNode"
+      ],
+      "count": 27481
+    },
+    {
+      "labels": [
+        "WebLink",
+        "SemanticNode"
+      ],
+      "count": 25054
+    },
+    {
+      "labels": [
+        "Publication",
+        "SemanticNode"
+      ],
+      "count": 24276
+    },
+    {
+      "labels": [
+        "Deliverable",
+        "SemanticNode"
+      ],
+      "count": 24158
+    },
+    {
+      "labels": [
+        "Project",
+        "SemanticNode"
+      ],
+      "count": 16776
+    },
+    {
+      "labels": [
+        "ReportSummary",
+        "SemanticNode"
+      ],
+      "count": 3875
+    },
+    {
+      "labels": [
+        "Topic",
+        "SemanticNode"
+      ],
+      "count": 2061
+    },
+    {
+      "labels": [
+        "EuroSciVoc",
+        "SemanticNode"
+      ],
+      "count": 905
+    },
+    {
+      "labels": [
+        "Call",
+        "SemanticNode"
+      ],
+      "count": 622
+    },
+    {
+      "labels": [
+        "LegalBasis",
+        "SemanticNode"
+      ],
+      "count": 96
+    },
+    {
+      "labels": [
+        "PolicyPriority",
+        "SemanticNode"
+      ],
+      "count": 5
+    },
+    {
+      "labels": [
+        "WebItem",
+        "SemanticNode"
+      ],
+      "count": 4
+    },
+    {
+      "labels": [
+        "Call"
+      ],
+      "count": 2
+    }
+  ],
+  "rel_counts": [
+    {
+      "rel_type": "AUTHORED",
+      "count": 121294
+    },
+    {
+      "rel_type": "PARTICIPATES_IN",
+      "count": 101927
+    },
+    {
+      "rel_type": "HAS_EUROSCIVOC",
+      "count": 35170
+    },
+    {
+      "rel_type": "HAS_WEB_LINK",
+      "count": 24811
+    },
+    {
+      "rel_type": "HAS_PUBLICATION",
+      "count": 24276
+    },
+    {
+      "rel_type": "HAS_DELIVERABLE",
+      "count": 24158
+    },
+    {
+      "rel_type": "HAS_LEGAL_BASIS",
+      "count": 21927
+    },
+    {
+      "rel_type": "HAS_TOPIC",
+      "count": 16776
+    },
+    {
+      "rel_type": "HAS_REPORT_SUMMARY",
+      "count": 3847
+    }
+  ],
+  "property_keys": [
+    "id",
+    "type",
+    "name",
+    "acronym",
+    "endDate",
+    "topics",
+    "legalBasis",
+    "grantDoi",
+    "title",
+    "objective",
+    "ecMaxContribution",
+    "rcn",
+    "frameworkProgramme",
+    "startDate",
+    "totalCost",
+    "status",
+    "country",
+    "location",
+    "sme",
+    "shortName",
+    "vatNumber",
+    "role",
+    "ecContribution",
+    "keywords",
+    "teaser",
+    "pages",
+    "issn",
+    "year",
+    "isbn",
+    "journalNumber",
+    "journalTitle",
+    "authors",
+    "doi",
+    "isPublishedAs",
+    "description",
+    "url",
+    "attachment",
+    "contentUpdateDate",
+    "projectAcronym",
+    "represents",
+    "availableLanguages",
+    "language",
+    "source",
+    "uri",
+    "archivedDate",
+    "physUrl",
+    "embedding",
+    "titleObjectiveText",
+    "titleObjectiveEmbedding",
+    "graphEmbedding",
+    "orcid",
+    "affiliation",
+    "document_count",
+    "documents",
+    "type_of_mga",
+    "deadline_model",
+    "partner_search_count",
+    "planned_opening_date",
+    "call_id",
+    "call",
+    "deadline_date",
+    "topic_destination",
+    "topic_description",
+    "ingested_at",
+    "conditions",
+    "programme",
+    "type_of_action",
+    "budget",
+    "qa_links_count",
+    "titleDText",
+    "titleDescriptionText",
+    "titleDescriptionEmbedding",
+    "GNNEmbedding",
+    "UltraSafeSemanticGNNEmbedding",
+    "SemanticGNNEmbedding",
+    "SentenceTransformerEmbedding"
+  ]
+}
